@@ -5,7 +5,7 @@
     <ProjectGuid>db38c6c3-f23f-4512-8be6-394b28ea1c51</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Test 1.py</StartupFile>
+    <StartupFile>DecisionTree.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +22,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DecisionTree.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test 1.py" />
     <Compile Include="tree.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adult.csv" />
     <Content Include="TestData1.csv" />
     <Content Include="TestData.csv" />
   </ItemGroup>
